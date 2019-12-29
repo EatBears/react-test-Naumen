@@ -1,0 +1,32 @@
+h1, p {
+  font-family: Lato;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.wrapper-article {
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.searchmatch {
+  font-weight: bold;
+  font-style: italic;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-articles:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.search-block {
+  width: 100%;
+}
+.status-message {
+  position: absolute;
+}
